@@ -1,51 +1,29 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
+  "name": "coolLabs",
+  "favicon": "/logo/icon.png",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#9A54FC",
+    "light": "#9A54FC",
+    "dark": "#9A54FC",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#9A54FC",
+      "to": "#9A54FC"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:hi@coollabs.io"
     }
   ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
+
+  "tabs": [],
   "anchors": [
     {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
       "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "icon": "discord",
+      "url": "https://coollabs.io/discord"
     }
   ],
   "navigation": [
@@ -53,39 +31,32 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "sponsorship",
+        "contact"
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Coolify",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "coolify/introduction"
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Fonts",
       "pages": [
-        "api-reference/introduction"
+        "fonts/introduction",
+        "fonts/how-to-use"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "SafeTyper",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "safetyper/introduction"
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://www.linkedin.com/company/mintsearch"
+    "x": "https://x.com/heyandras",
+    "github": "https://github.com/coollabsio"
   }
 }

@@ -1,0 +1,57 @@
+---
+title: How to use
+'og-title': "How to use Fonts by coolLabs a privacy-friendly drop-in replacement for Google Fonts."
+description: "How to get started with Fonts"
+---
+
+Change the domain name from `fonts.googleapis.com` to `api.fonts.coollabs.io` in your `<head>` tag; that's it!
+
+Example:
+
+Original `<head>` content:
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+```
+
+Replaced `<head>` content:
+```html
+<link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
+<link href="https://api.fonts.coollabs.io/css2?family=Roboto&display=swap" rel="stylesheet">
+```
+
+Or with `@import`:
+
+From:
+```css
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+</style>
+```
+
+To: 
+```css
+<style>
+@import url('https://api.fonts.coollabs.io/css2?family=Roboto&display=swap');
+</style>
+```
+
+Currently, it only supports the css2 [API endpoint](https://developers.google.com/fonts/docs/css2).
+
+## Icons
+
+Currently, [Material Icons](https://fonts.google.com/icons) is supported.
+
+Original `<head>` content:
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+```
+
+Replaced `<head>` content:
+```html
+<link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin>
+<link href="https://api.fonts.coollabs.io/icon?family=Material+Icons" rel="stylesheet">
+```
