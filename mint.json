@@ -42,6 +42,55 @@
       ]
     },
     {
+      "group": "Coolify v3 (deprecated)",
+      "pages": [
+        "coolify/v3/introduction",
+        "coolify/v3/requirements",
+        "coolify/v3/installation",
+        "coolify/v3/firewall",
+        "coolify/v3/faq",
+        "coolify/v3/architecture",
+        "coolify/v3/settings",
+        "coolify/v3/sources",
+        "coolify/v3/databases",
+        "coolify/v3/destinations",
+        "coolify/v3/secrets",
+        "coolify/v3/iam",
+        "coolify/v3/rollsecretkey",
+        {
+          "group": "Applications",
+          "pages": [
+            "coolify/v3/applications/introduction",
+            "coolify/v3/applications/static",
+            "coolify/v3/applications/nodejs",
+            "coolify/v3/applications/heroku",
+            "coolify/v3/applications/docker",
+            "coolify/v3/applications/docker-compose",
+            "coolify/v3/applications/laravel",
+            "coolify/v3/applications/php",
+            "coolify/v3/applications/python",
+            "coolify/v3/applications/svelte",
+            "coolify/v3/applications/vuejs",
+            "coolify/v3/applications/react-preact",
+            "coolify/v3/applications/rust",
+            "coolify/v3/applications/nextjs",
+            "coolify/v3/applications/nuxtjs",
+            "coolify/v3/applications/nestjs",
+            "coolify/v3/applications/gatsby",
+            "coolify/v3/applications/deno"
+
+          ]
+        },
+        {
+          "group": "Services",
+          "pages": [
+            "coolify/v3/services/introduction"
+
+          ]
+        }
+      ]
+    },
+    {
       "group": "Fonts",
       "pages": [
         "fonts/introduction",
