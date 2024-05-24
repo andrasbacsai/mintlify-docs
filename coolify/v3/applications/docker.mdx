@@ -16,9 +16,9 @@ FROM baserow/baserow:1.10.2
 - Create an application in Coolify:
    1. Click on `Create New Resource` button and select `Application`
    2. Select a GitSource that has access to the repository or specify a Public Repository URL.
-   :::tip
+   <Tip>
    With Public Repository, you won't get the auto-commit builds. You need to initiate rebuild manually.
-   :::
+   </Tip>
    3. Select `Docker` as build pack.
    4. Make sure the `port` field is set, otherwise Coolify won't know which port to expose (for example in the case of baserow it will be 80 instead of 3000).
    5. Add any env variables that are required to start the container in the top right `Secrets` panel - in case of Baserow the only thing you need to add is `BASEROW_PUBLIC_URL` which should correspond to the url you've set for the application.

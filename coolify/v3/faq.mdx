@@ -11,9 +11,9 @@ You can always roll back to a specific Coolify version (for example 3.11.1) with
 wget -q https://get.coollabs.io/coolify/install.sh -O install.sh; sudo bash ./install.sh -fx 3.11.1 
 ```
 
-:::warning
+<Warning>
 As database schema changes sometimes, there could be a potential problem where the UI/API is looking for old schema that does not exists anymore and throws an error. Then you should revert the rollback.
-:::
+</Warning>
 
 ## Reset Root password
 This will tag the root user with a password reset flag. Then if you login in the
